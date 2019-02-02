@@ -1,0 +1,99 @@
+/* for toggle hide/show child */
+.display-none {
+  display: none;
+}
+.child {
+  display: inline-block;
+}
+/* for modal window to message about delete category */
+.modal {
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0;
+  z-index: 9999;
+  background-color: rgba(100, 100, 100, 0.7);
+}
+.wrap-modal {
+  width: 30%;
+  min-width: 300px;
+  margin: 20% auto;
+  border: 1px solid rgba(100, 100, 100, 1);
+  background-color: #fff;
+}
+.modal p {
+  padding: 3px 10px;
+}
+.modal .title {
+  text-align: center;
+  margin: 0;
+  background-color: rgba(100, 100, 100, 1);
+}
+.modal .buttons {
+  text-align: center;
+  margin: 10px auto;
+}
+.modal button {
+  margin: 0 5px;
+  width: 75px;
+}
+/* main styles */
+.toggle {
+  width: 18px;
+  position: absolute;
+  left: 3px;
+  padding: 0;
+}
+.categories-tree li{
+  position: relative;
+  margin-left: 10px;
+}
+.categories-tree > ul  > li {
+  margin-left: 0px;
+}
+.categories-tree ul {
+  min-width: 100%;
+  width: intrinsic;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+}
+.categories-tree a {
+  margin-right: 5px;
+  color: #00bfff;
+}
+.categories-tree button {
+  padding: 2px;
+  line-height: 1em; 
+}
+.categories-tree input {
+  border: 0;
+  outline: 0;
+  width: 150px;
+  background-color: #fff;
+}
+.buttons button {
+  margin-right: 5px;
+  padding: 4px;
+}
+.category {
+  padding: 3px 3px 3px 20px;
+  height: 30px;
+}
+.addNewChild, .rename {
+  flex-wrap: no-wrap;
+  height: 100%;
+}
+.addNewChild button {
+  margin-right: 5px;
+}
+.rename {
+  padding-right: 5px;
+  width: 100%;
+}
+.category-name {
+  margin: 0 5px;
+}
+.selected {
+  background-color: #f5f5f5;
+}
+.to-move {
+  background-color: #b0e0e6;
+}

@@ -1,0 +1,30 @@
+.edit-item {
+  padding: 10px;
+}
+.link {
+  align-self: flex-start;
+}
+.edit-item a {
+  margin: 0 5px;
+  color: #000;
+}
+.buttons {
+  text-align: right;
+}
+.fields input[type='text'] {
+  margin-top: 10px;
+  width: 50%;
+  min-width: 150px;
+}
+.fields textarea {
+  margin-top: 10px;
+  height: 200px;
+  width: 100%;
+}
+.fields label {
+  margin-top: 10px;
+  display: inline-block;
+}
+.fields input[type='checkbox'] {
+  margin-right: 5px;
+}

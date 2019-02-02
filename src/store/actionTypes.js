@@ -1,0 +1,9 @@
+export const ADD_CATEGORY = 'ADD_CATEGORY';
+export const ADD_CHILD = 'ADD_CHILD';
+export const SHOW_CHILD = 'SHOW_CHILD';
+export const DELETE_CATEGORY = 'DELETE_CATEGORY';
+export const RENAME_CATEGORY = 'RENAME_CATEGORY';
+export const ADD_NEW_ITEM = 'ADD_NEW_ITEM';
+export const EDIT_ITEM = 'EDIT_ITEM';
+export const EDIT_ITEM_SHORT = 'EDIT_ITEM_SHORT';
+export const MOVE_ITEM = 'MOVE_ITEM';
