@@ -1,4 +1,4 @@
-#To-Do List
+# To-Do List
 
 This simple application is designed to build an usual to-do list. You can create categories with tasks to do. Every category contain its tasks and may contain nested categories with their tasks.
 
